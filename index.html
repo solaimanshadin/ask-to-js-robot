@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ask To Robot</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        html {
+            height: 100%;
+        }
+        
+        body {
+            background: url('images/bg.jpg') no-repeat;
+            height: 100%;
+            /* background-size: cover; */
+        }
+        
+        .box-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }
+        
+        .box-wrapper * {
+            padding: 10px 15px;
+            outline: none;
+            font-size: 1.3em;
+            border: 1px solid #263238;
+        }
+        
+        button {
+            background: #263238;
+            border: 0;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        button:active {
+            background: #0aaa47;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box-wrapper">
+        <input type="text" placeholder="Ask Anything">
+        <button>Ask</button>
+    </div>
+</body>
+<script src='robot.js'></script>
+
+</html>
